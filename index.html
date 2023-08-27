@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Junction</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+<style>
+ /* Navbar styles */
+ .navbar {
+      background-color: #333;
+      overflow: hidden;
+      
+    }
+    
+    .navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .navbar .logo {
+      float: left;
+      padding: 14px 16px;
+    }
+    
+    .navbar .logo img {
+      height: 50px;
+      width: 50px;
+    }
+    
+    .navbar .right {
+      float: right;
+    }
+    
+    /* Responsive styles */
+    @media screen and (max-width: 600px) {
+      .navbar a, .navbar .right {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+      
+      .navbar .logo {
+        float: none;
+        display: block;
+        text-align: center;
+      }
+      
+      .navbar .right {
+        margin-top: 8px;
+      }
+    }
+
+    .card img{
+        height: 200px;
+    }
+    .my-7{
+        margin: 100px auto ;
+    }
+    /* Expertise */
+    .expertise-section {
+            background-color: #f1f1f1;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .expertise-heading {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .expertise-description {
+            font-size: 18px;
+            color: #333;
+            line-height: 1.5;
+        }
+</style>
+</head>
+<body>
+    <header>
+          <!-- navbar -->
+          <div class="navbar">
+            <a class="logo" href="#"><img src="/images/Design Junction Logo.png" alt="Logo"></a>
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <div class="right">
+              <a href="signup.html">Sign Up</a>
+              <a href="login.html">Login</a>
+            </div>
+          </div>
+
+  <!-- Slider -->
+  
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/images/1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/images/2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/images/3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+    </header> <br><br>
+    <!-- Expertise -->
+    <section class="expertise-section">
+      <h2 class="expertise-heading">Our Expertise</h2>
+      <p class="expertise-description">We offer a wide range of graphic designing services to help you create visually appealing and impactful designs. Our team of skilled designers has expertise in logo design, branding, web design, print materials, and more. We strive to bring your ideas to life through innovative and creative design solutions..</p>
+  </section>
+    <!-- 1 cCARD -->
+    <main>
+        <div class="container my-7">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12" >
+                    <div class="card" style="width: 100%;">
+  <img src="/images/logo.jpg" class="card-img-top img-fluid" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"> Logo</h5>
+    <p class="card-text">A logo in graphic designing is a visual representation that symbolizes a brand, company, or organization.
+     </p>
+    <a href="#" class="btn btn-primary">Checkout</a>
+  </div>
+</div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card" style="width: 100%;">
+  <img src="/images/FLYER-.jpg" class="card-img-top img-fluid" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Flyer</h5>
+    <p class="card-text">A flyer in graphic design is a promotional material typically used for advertising events, products, or services.</p>
+    <a href="#" class="btn btn-primary">Checkout</a>
+  </div>
+</div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card" style="width: 100%;">
+  <img src="/images/bs card.jpg" class="card-img-top img-fluid" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Business Card</h5>
+    <p class="card-text">A business card in graphic design is a small printed card that contains contact information and branding.</p>
+    <a href="#" class="btn btn-primary">Checkout</a>
+  </div>
+</div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card" style="width: 100%;">
+  <img src="/images/facebook post.jpg" class="card-img-top img-fluid" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Facebook Post</h5>
+    <p class="card-text">A Facebook post is a message or content shared by a user on their Facebook profile, Account or page.</p>
+    <a href="#" class="btn btn-primary">Checkout</a>
+  </div>
+</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2ND CARD  -->
+        <div class="container my-7">
+          <div class="row">
+              <div class="col-lg-3 col-md-6 col-sm-12" >
+                  <div class="card" style="width: 100%;">
+<img src="/images/poster--.jpg" class="card-img-top img-fluid" alt="...">
+<div class="card-body">
+  <h5 class="card-title"> Poster</h5>
+  <p class="card-text">A poster is a visual medium used to convey information or promote events, products, or ideas</p>
+  <a href="#" class="btn btn-primary">Checkout</a>
+</div>
+</div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="card" style="width: 100%;">
+<img src="/images/brochure--.jpg" class="card-img-top img-fluid" alt="...">
+<div class="card-body">
+  <h5 class="card-title">Brochure</h5>
+  <p class="card-text">A brochure is a printed document that provides information about a company, product, or service.</p>
+  <a href="#" class="btn btn-primary">Checkout</a>
+</div>
+</div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="card" style="width: 100%;">
+<img src="/images/Youtube Thumbnails.jpg" class="card-img-top img-fluid" alt="...">
+<div class="card-body">
+  <h5 class="card-title">Youtube Thumbnails</h5>
+  <p class="card-text">A YouTube thumbnail is a small image that represents a video and helps attract viewers' attention.</p>
+  <a href="#" class="btn btn-primary">Checkout</a>
+</div>
+</div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="card" style="width: 100%;">
+<img src="/images/Social Media Post--.jpg" class="card-img-top img-fluid" alt="...">
+<div class="card-body">
+  <h5 class="card-title">Social Media Post</h5>
+  <p class="card-text">A social media post is a content piece shared on platforms like Facebook, Twitter, or Instagram to engage users</p>
+  <a href="#" class="btn btn-primary">Checkout</a>
+</div>
+</div>
+              </div>
+          </div>
+      </div>
+      <!-- 3RD CARD -->
+      <div class="container my-7">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12" >
+                <div class="card" style="width: 100%;">
+<img src="/images/banner.jpg" class="card-img-top img-fluid" alt="...">
+<div class="card-body">
+<h5 class="card-title"> Banner</h5>
+<p class="card-text">A banner is a graphic display used for advertising purposes, often placed on websites or in physical locations.</p>
+<a href="#" class="btn btn-primary">Checkout</a>
+</div>
+</div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card" style="width: 100%;">
+<img src="/images/Invitation cards.jpg" class="card-img-top img-fluid" alt="...">
+<div class="card-body">
+<h5 class="card-title">Invitation cards</h5>
+<p class="card-text">Invitation cards are printed or digital cards used to invite people to events, gatherings, or special occasions.</p>
+<a href="#" class="btn btn-primary">Checkout</a>
+</div>
+</div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card" style="width: 100%;">
+<img src="/images/ID cards.jpg" class="card-img-top img-fluid" alt="...">
+<div class="card-body">
+<h5 class="card-title">ID cards </h5>
+<p class="card-text">ID cards are personalized cards that provide identification information and are used for verification or access </p>
+<a href="#" class="btn btn-primary">Checkout</a>
+</div>
+</div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card" style="width: 100%;">
+<img src="/images/Professional Resume Design.jpg" class="card-img-top img-fluid" alt="...">
+<div class="card-body">
+<h5 class="card-title">Professional Resume </h5>
+<p class="card-text">A professional resume is a document summarizing a person's work experience, skills, and qualifications for job </p>
+<a href="#" class="btn btn-primary">Checkout</a>
+</div>
+</div>
+            </div>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i> Design Junction
+            </h6>
+            <p>
+              Design Junction is a leading graphic design studio specializing in creating captivating and innovative design solutions. With a team of skilled designers, we offer a wide range of services to meet the unique needs of our clients.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Adobe Illustrator</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Adobe Photoshop</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Adobe Premier Pro</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Adobe After Effects </a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="http://127.0.0.1:5500/index.html">DesignJunction.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+    </footer>
+</body>
+</html>
